@@ -47,11 +47,6 @@ header
 	z-index: 100;
 }
 
-header div
-{
-	display: inline-block;
-}
-
 .header_icon img
 {
 	width: 50px;
@@ -59,17 +54,21 @@ header div
 
 .header_title
 {
-	padding-left: 10%;
+	display: inline-block;
+
 	width: 40%;
-	min-width: 300px;
+
+	padding: 0 5%;
 }
 
 .header_links
 {
+	display: inline-block;
+
 	width: 40%;
-	min-width: 200px;
+	padding: 0 5%;
+
 	direction: rtl;
-	right: 0;
 }
 
 .header_links p
