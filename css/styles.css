@@ -4,6 +4,12 @@
 Global
 ====================================================================================================
 */
+*
+{
+	margin 0 0;
+	padding: 0 0;
+}
+
 :root
 {
 	/*Defining Color Palette*/
@@ -25,6 +31,9 @@ body
 {
 	background: var(--Gunmetal);
 	color: var(--Bone-White);
+
+	padding: 0 0;
+	margin: 0 0;
 }
 
 
@@ -105,7 +114,7 @@ Project Item
 .portfolio_item 
 {
 	min-width: 400px;
-	margin: 10px;
+	margin: 10px 15px;
 	flex: 1 1 40%;
 	position: relative;
 
@@ -135,6 +144,8 @@ Project Item
 	color: white;
 	text-align: center;
 	border-radius: 20px;
+	
+	opacity: 0;
 }
 
 .portfolio_overlay h3
@@ -195,9 +206,9 @@ footer
 {
 	background: var(--Raisin-Black);
 
-	bottom: 0;
-	left: 0;
-	right: 0;
+	padding: 0 0;
+	margin: 0 0;
+
 	width: 100%;
 
 	text-align: center;
