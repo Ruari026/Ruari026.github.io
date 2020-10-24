@@ -86,6 +86,34 @@ header
 	padding: 0 5%;
 }
 
+.header_links a:link
+{
+	color: var(--Bone-White);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.header_links a:visited
+{
+	color: var(--Bone-White);
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.header_links a:hover
+{
+	color: var(--Bone-White);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.header_links a:active
+{
+	color: var(--Bone-White);
+	text-decoration: none;
+	font-weight: normal;
+}
+
 
 /*
 ====================================================================================================
